@@ -1,0 +1,54 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+# Ignore virtual environment directories
+venv/
+.env/
+*.env
+*.venv
+*.env.*
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.tmp
+*.bak
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore test files
+tests/
+*.pytest_cache/
+*.cover
+.coverage
+nosetests.xml
+*.test
+
+# Ignore Dockerfile itself (optional)
+Dockerfile
+
+# Ignore Kubernetes manifests (if not required)
+*.yaml
+*.yml
+
+# Ignore files that are specific to development but not needed in production
+*.md
+*.rst
+*.git*
+README.md
+LICENSE
+.git/
+
+# Ignore node_modules if the project uses any frontend code
+node_modules/
+
+# Ignore temporary and backup files
+*~
+*.swp
+*.swo
