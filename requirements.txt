@@ -1,0 +1,41 @@
+# Core dependencies
+fastapi==0.100.0
+uvicorn[standard]==0.23.1
+
+# For data validation and serialization
+pydantic==2.3.0
+
+# For async HTTP requests (if needed)
+httpx==0.24.1
+
+# For logging and monitoring
+loguru==0.7.0
+
+# Database support (if using SQLAlchemy with PostgreSQL)
+sqlalchemy==2.1.0
+asyncpg==0.30.0
+
+# For environment variable management
+python-dotenv==1.0.0
+
+# Optional: For testing
+pytest==7.4.0
+pytest-asyncio==0.21.0
+httpx[cli]==0.24.1
+
+# Optional: For linting and code quality
+flake8==6.1.0
+black==23.9.1
+isort==5.12.0
+
+# Optional: For deployment in Docker and Kubernetes
+kubernetes==27.2.0
+python-decouple==3.8
+
+# Optional: For Azure SDK (if interacting with Azure services)
+azure-mgmt-containerinstance==17.0.0
+azure-identity==1.14.0
+
+# Optional: For JWT Authentication (if needed)
+pyjwt[crypto]==2.8.0
+cryptography==41.0.2
